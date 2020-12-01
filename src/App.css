@@ -28,6 +28,78 @@
   color: #61dafb;
 }
 
+/* Custom Css starts here*/
+ ul,li{
+  padding: 0;
+  margin: 0;
+}
+.inner_container {
+  width: 80vw;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #333333;
+}
+.inner_container h2{
+  display: block;
+  line-height: 64px;
+  border-bottom: 2px solid #ccc;
+}
+
+.left_cont {
+  width: 25%;
+  float: left;
+  margin-right: 4%;
+}
+.left_cont h3{
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.right_cont{
+  width: 69%;
+  float: right;
+}
+.filter_box{
+  display: block;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+}
+.filter_box h4{
+  display: block;
+  padding: 0;
+  margin: 5px;
+}
+.filter_box ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  list-style-type: none;
+}
+.filter_box ul li{
+  padding: 3px 5px;
+}
+
+table{
+  border-collapse: collapse;
+}
+thead, th{
+  padding: 5px;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.acc_details tr td:first-child{
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
